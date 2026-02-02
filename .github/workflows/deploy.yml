@@ -1,7 +1,7 @@
 name: Deploy
 on:
   push:
-    branches: [main]
+    branches: [development]
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
